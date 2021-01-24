@@ -1,6 +1,5 @@
 package First_Smst_Java.Any;
 import java.util.Scanner;
-
 public class Spelled_out_in_Rupiah{
     //https://www.hackerrank.com/contests/latihan-bleh/challenges/terbilang-rupiah
     public static void main(String[] args) {
@@ -34,12 +33,11 @@ public class Spelled_out_in_Rupiah{
                     case 1:
                         if(nextDigit == true){
                             spelled += doubleDigit[Character.getNumericValue(arrayIn[index].charAt(charIndex))];
-                            spelled += lastSpell[loop];
                             nextDigit = false;
                         }else{
                             spelled += singleDigit[Character.getNumericValue(arrayIn[index].charAt(charIndex))];
-                            spelled += lastSpell[loop];
                         }
+                        spelled += lastSpell[loop];
                         break;
                 }
                 charIndex++;
