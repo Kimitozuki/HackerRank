@@ -1,6 +1,6 @@
 package First_Smst_Java.Live_Coding.Last_Exam;
 import java.util.Scanner;
-//https://www.hackerrank.com/contests/uap-tif-f-2020/challenges/seleksi-tim-pkm/problem
+//https://www.hackerrank.com/contests/uap-tif-f-2020/challenges/seleksi-tim-pkm/
 public class PKM_Selection {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
