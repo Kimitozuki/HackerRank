@@ -1,6 +1,5 @@
 package First_Smst_Java.Any;
 import java.util.Scanner;
-
 public class Spelled_out_in_Rupiah{
     //https://www.hackerrank.com/contests/latihan-bleh/challenges/terbilang-rupiah
     public static void main(String[] args) {
