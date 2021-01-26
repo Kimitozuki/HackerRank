@@ -10,12 +10,9 @@ public class Pesan_Pendek {
         if(jumlah_karakter < 50){
             System.out.println(kalimat);
         }else{
-            String kalimat_baru_1 = kalimat.replaceAll("yang","yg");
-            String kalimat_baru_2 = kalimat_baru_1.replaceAll("enggak bisa","gbs");
-            String kalimat_baru_3 = kalimat_baru_2.replaceAll("enggak","g");
-            String kalimat_baru_4 = kalimat_baru_3.replaceAll("bisa","bs");
+            String kalimat_baru = kalimat.replaceAll("yang","yg").replaceAll("enggak bisa","gbs").replaceAll("enggak","g").replaceAll("bisa","bs");
 
-            System.out.println(kalimat_baru_4);
+            System.out.println(kalimat_baru);
         }
 
     }
