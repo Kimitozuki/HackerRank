@@ -16,7 +16,7 @@ public class Cal_StockPrice {
         T.getHargaTotal();
     }
 }
-class Saham{
+class Saham {
     private int priceSheet;
     private int shareSheet;
     private double fee;
