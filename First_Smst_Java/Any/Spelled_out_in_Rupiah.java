@@ -46,5 +46,6 @@ public class Spelled_out_in_Rupiah{
             charIndex = 0;
         }
         System.out.println(spelled + "rupiah ");
+        input.close();
     }
 }
