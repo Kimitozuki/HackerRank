@@ -26,5 +26,6 @@ public class Fibonacci {
                 }
                 System.out.printf("Fibonacci ke %d adalah %d \n",Fn,F_Baru);
         }
+        input.close();
     }
 }
