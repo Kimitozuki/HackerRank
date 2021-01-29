@@ -12,7 +12,7 @@ public class Arithmeth {
         nilai_akhir = input.nextInt();
         penambahan = nilai_awal;
         hasil_akhir = nilai_awal;
-
+        input.close();
         for( ;(nilai_awal < nilai_akhir); nilai_awal++){
            ++penambahan;
            hasil_akhir = hasil_akhir + penambahan;
