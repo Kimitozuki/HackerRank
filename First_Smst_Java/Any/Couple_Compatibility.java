@@ -39,5 +39,6 @@ public class Couple_Compatibility {
                 }
             }
         }
+        input.close();
     }
 }
