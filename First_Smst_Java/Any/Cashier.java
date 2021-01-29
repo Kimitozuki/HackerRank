@@ -52,5 +52,6 @@ public class Cashier {
             }
             System.out.printf("%d uang 100 \n",loop);
         }
+        input.close();
     }
 }
