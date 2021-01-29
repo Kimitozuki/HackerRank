@@ -6,6 +6,7 @@ public class Recursive_Fibonacci {
 
         long Fn = Math.round(input.nextDouble()) - 1;
         System.out.println(Fibonacci(Fn));
+        input.close();
     }
     private static long Fibonacci(long Fn){
         if(Fn == 1 || Fn == 0){
